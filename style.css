@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 50px;
+}
+
+.main {
+    height: 250px;
+    width: 250px;
+    background: #499980;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#para {
+    color: white;
+    font-size: 40px;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+    border: none;
+    background: #499980;
+    padding: 8px 5px;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#btn2 {
+    display: none;
+}
+
+#btn3 {
+    display: none;
+}
