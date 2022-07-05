@@ -69,6 +69,6 @@ function timer() {
         }
 
         ans.innerHTML = `${hr} : ${min} : ${sec}`;
-        setTimeout("timer()", 1000);
+        setTimeout("timer()", 100);
     }
 }
